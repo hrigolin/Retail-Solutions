@@ -55,8 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aplication\SetWeeklyGrid.cs" />
-    <Compile Include="Aplication\Utilities\WeekUtilities.cs" />
+    <Compile Include="Application\SetWeeklyGrid.cs" />
+    <Compile Include="Application\Utilities\WeekUtilities.cs" />
     <Compile Include="Context\BreakTrackingContext.cs" />
     <Compile Include="Domain\Core\BaseEntity.cs" />
     <Compile Include="Domain\Models\Department.cs" />
@@ -81,11 +81,11 @@
     <Compile Include="Repository\ShiftRepository.cs" />
     <Compile Include="Repository\UnitOfWork.cs" />
     <Compile Include="Repository\WorkTimeRepository.cs" />
-    <Compile Include="Aplication\Startup\FirstLoading.cs" />
-    <Compile Include="Aplication\ViewModel\ComboWeekViewModelcs.cs" />
-    <Compile Include="Aplication\ViewModel\EmployeeGridViewModel.cs" />
-    <Compile Include="Aplication\ViewModel\EmployeeViewModel.cs" />
-    <Compile Include="Aplication\ViewModel\WeeklyWorkTimeViewModelcs.cs" />
+    <Compile Include="Application\Startup\FirstLoading.cs" />
+    <Compile Include="Application\ViewModel\ComboWeekViewModelcs.cs" />
+    <Compile Include="Application\ViewModel\EmployeeGridViewModel.cs" />
+    <Compile Include="Application\ViewModel\EmployeeViewModel.cs" />
+    <Compile Include="Application\ViewModel\WeeklyWorkTimeViewModelcs.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

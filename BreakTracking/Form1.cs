@@ -10,8 +10,8 @@ using System.Windows.Forms;
 
 using BreakTracking.Repository;
 using BreakTracking.Domain.Models;
-using BreakTracking.Aplication.ViewModel;
-using BreakTracking.Aplication.Utilities;
+using BreakTracking.Application.ViewModel;
+using BreakTracking.Application.Utilities;
 using BreakTracking.Context;
 using System.Globalization;
 using System.Text.RegularExpressions;
@@ -120,7 +120,7 @@ namespace BreakTracking
             }
             else if (text.Length > 0 && text.Length < 3)
             {
-                this.lblFilterResultMsg.Text = "Please type at least three letter to use the Name as a filter.";
+                this.lblFilterResultMsg.Text = "Enter at least three letters to use Name as a filter.";
 
             }
             else 

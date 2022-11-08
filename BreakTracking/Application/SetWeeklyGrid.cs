@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using BreakTracking.Domain.Models;
 using BreakTracking.Context;
 using BreakTracking.Repository;
-using BreakTracking.Aplication.ViewModel;
-using BreakTracking.Aplication.Utilities;
+using BreakTracking.Application.ViewModel;
+using BreakTracking.Application.Utilities;
 
 
 namespace BreakTracking.Aplication

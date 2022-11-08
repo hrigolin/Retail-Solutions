@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BreakTracking.Context;
 using BreakTracking.Domain.Models;
-using BreakTracking.Aplication.ViewModel;
+using BreakTracking.Application.ViewModel;
 
 namespace BreakTracking.Repository
 {

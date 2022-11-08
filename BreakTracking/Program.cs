@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BreakTracking.Context;
 using BreakTracking.Domain.Models;
-using BreakTracking.Aplication.Startup;
 
 using BreakTracking.Repository;
 using System.Globalization;
@@ -21,20 +20,20 @@ namespace BreakTracking
         static void Main()
         {
 
-            BreakTrackingContext context = new FirstLoading().DataLoading();
+            BreakTrackingContext context = new BreakTracking.Application.Startup.FirstLoading().DataLoading();
             
             var employeeRepository = new EmployeeRepository(context);
 
             var employeeGrid = employeeRepository.GetEmployeeGridViewModel().ToList();
 
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            System.Windows.Forms.Application.EnableVisualStyles();
+            System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
 
             Form1 form1 = new Form1(context);
             employeeGrid.ForEach(f => { form1.dataGridView1.Rows.Add(f.EmployeeId, f.EmployeeName, f.DepartmentName,f.ShiftName); });
 
 
-            Application.Run(form1);
+            System.Windows.Forms.Application.Run(form1);
 
         }
        

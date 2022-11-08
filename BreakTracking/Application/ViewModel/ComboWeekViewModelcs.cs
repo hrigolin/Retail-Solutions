@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BreakTracking.Aplication.ViewModel
+namespace BreakTracking.Application.ViewModel
 {
     public class ComboWeekViewModelcs
     {

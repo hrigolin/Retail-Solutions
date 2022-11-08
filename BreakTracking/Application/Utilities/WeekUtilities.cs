@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BreakTracking.Aplication.Utilities
+namespace BreakTracking.Application.Utilities
 {
 
     public static class WeekUtilities

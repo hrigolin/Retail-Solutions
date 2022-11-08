@@ -7,7 +7,7 @@ using System.Data.Entity;
 using BreakTracking.Domain.Models;
 using BreakTracking.Context;
 
-namespace BreakTracking.Aplication.Startup
+namespace BreakTracking.Application.Startup
 {
     public class FirstLoading
     {

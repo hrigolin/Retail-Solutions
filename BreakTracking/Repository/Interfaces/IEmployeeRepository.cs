@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using BreakTracking.Aplication.ViewModel;
+using BreakTracking.Application.ViewModel;
 using BreakTracking.Domain.Models;
 
 namespace BreakTracking.Repository

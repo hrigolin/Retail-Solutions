@@ -282,9 +282,8 @@ namespace BreakTracking
             this.lblFilterResultMsg.AutoSize = true;
             this.lblFilterResultMsg.Location = new System.Drawing.Point(45, 54);
             this.lblFilterResultMsg.Name = "lblFilterResultMsg";
-            this.lblFilterResultMsg.Size = new System.Drawing.Size(35, 13);
+            this.lblFilterResultMsg.Size = new System.Drawing.Size(0, 13);
             this.lblFilterResultMsg.TabIndex = 6;
-            this.lblFilterResultMsg.Text = "label3";
             // 
             // label4
             // 
@@ -543,7 +542,6 @@ namespace BreakTracking
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.breakTrackingContextBindingSource)).EndInit();
             this.ResumeLayout(false);
-
 
         }
 
